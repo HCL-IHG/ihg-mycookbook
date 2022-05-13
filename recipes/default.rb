@@ -6,4 +6,5 @@
 file '/etc/motd' do
 content 'This is the property ..'
 mode '0644'
+owner 'root'
 end
